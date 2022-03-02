@@ -22,14 +22,8 @@ npm install
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Auth0
 
 ```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
+click login to use an Auth0 authentication and login with mytest@bothminds.com and PleaseLetMeIn2022 for a password.
 ```
