@@ -26,4 +26,6 @@ npm run dev
 
 ```sh
 click login to use an Auth0 authentication and login with mytest@bothminds.com and PleaseLetMeIn2022 for a password.
+
+implemented code from https://freesgen.hashnode.dev/build-an-authentication-flow-with-auth0-and-vue3
 ```

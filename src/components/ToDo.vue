@@ -2,12 +2,14 @@
 export default {
   data() {
     return {
-      list: [{ item: "", quantity: 0, done: false }],
+      items: { item: "", quantity: 0, done: false },
+      list: [ { item: "", quantity: 0, done: false } ],
     };
   },
   methods: {
     add() {
-      this.list.push(this.list);
+      this.list.push(this.items);
+      this.items = { item: "", quantity: 0, done: false }
     },
     remove(e) {
       this.list.splice(e, 1);
@@ -79,5 +81,4 @@ export default {
   </div>
 </template>
 
-<style>
-</style>
+<style></style>
